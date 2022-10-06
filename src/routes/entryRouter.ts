@@ -72,6 +72,12 @@ const getQuotesForEntry = async (entries: any) => {
  *        createdBy:
  *          type: string
  *          description: Created By
+ *        author:
+ *          type: string
+ *          description: Author
+ *        quote:
+ *          type: string
+ *          description: Quote
  *        updatedBy:
  *          type: string
  *          description: Updated By
