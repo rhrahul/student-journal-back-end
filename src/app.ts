@@ -15,7 +15,7 @@ import entryRouter from "./routes/entryRouter";
 import quoteRouter from "./routes/quoteRouter";
 
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 3000;
 
 // Swagger
 const swaggerOptions = require("./swagger.json");
